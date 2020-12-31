@@ -2,7 +2,6 @@
 
 namespace Lean\ConsoleLog;
 
-use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
 use Livewire\Component;
 
