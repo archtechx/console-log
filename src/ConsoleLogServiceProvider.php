@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Lean\ConsoleLog;
 
 use Illuminate\Support\ServiceProvider;
@@ -9,7 +11,6 @@ class ConsoleLogServiceProvider extends ServiceProvider
 {
     public function register()
     {
-
     }
 
     public function boot()
@@ -18,7 +19,6 @@ class ConsoleLogServiceProvider extends ServiceProvider
 
         Component::macro('consoleLog', function (...$data) {
             /** @var Component $this */
-
             if (count($data) === 1) {
                 $data = $data[0];
             }
