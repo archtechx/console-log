@@ -21,15 +21,15 @@
     ],
     "require": {
         "livewire/livewire": "^2.3",
-        "illuminate/view": "^7.0|^8.20"
+        "illuminate/view": "^8.20|^9.0"
     },
     "require-dev": {
-        "pestphp/pest": "^0.3.19",
-        "illuminate/support": "^7.0|^8.20",
-        "pestphp/pest-plugin-laravel": "^0.3.0",
-        "illuminate/testing": "^7.0|^8.20",
-        "orchestra/testbench": "^6.7",
-        "pestphp/pest-plugin-livewire": "^0.3.2"
+        "pestphp/pest": "^1.0",
+        "illuminate/support": "^8.20|^9.0",
+        "pestphp/pest-plugin-laravel": "^1.0",
+        "illuminate/testing": "^8.20|^9.0",
+        "orchestra/testbench": "^6.7|^7.0",
+        "pestphp/pest-plugin-livewire": "^1.1"
     },
     "extra": {
         "laravel": {
@@ -37,5 +37,7 @@
                 "Lean\\ConsoleLog\\ConsoleLogServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
